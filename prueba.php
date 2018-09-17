@@ -1,3 +1,3 @@
 <?php
 
-echp "hellow!!";
+echo "hellow!!";
