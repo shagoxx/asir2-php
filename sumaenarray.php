@@ -25,6 +25,12 @@ $a = count($numeros);
     }
 
 
+for ($i=0; $i < count($numeros); $i ++)
+
+    for ( $v = 0 ; count($numeros[$i]); $v++))
+
+
+
 
 echo $suma."<br>".count($numeros, COUNT_RECURSIVE)."<br>";
 
@@ -43,6 +49,6 @@ foreach($numeros as $x)
     }   
 
    echo $sumados;
-//$a=count($numeros) count($numeros, COUNT_RECURSIVE)-$a= el numero de cuadros que tiene la tabla 
+
 
 

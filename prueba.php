@@ -5,7 +5,15 @@
 
 $dia = date("N");
 $hora = date("H");
-
+$horario = array
+  (
+  array("lunes",8,9,10,11,12,13),
+  array("martes",8,9,10,11,12,13),
+  array("miercoles",8,9,10,11,12,13),
+  array("jueves",8,9,10,11,12,13),
+  array("viernes",8,9,10,11,12,13),
+  );
+  
 if ($dia == 1) //lunes
 {
     if ($hora == "8")
